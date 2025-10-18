@@ -24,7 +24,6 @@ void SingleList::clear() {
 				head = head->next;
 				delete tmp;
 		}
-		head = nullptr;
 }
 
 //default ctor
